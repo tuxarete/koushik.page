@@ -1,0 +1,47 @@
+baseURL = 'https://koushik.page/'
+locale = 'en-us'
+title = 'Koushik'
+theme = "hugo-coder"
+defaultContentLanguage = "en"
+
+[pagination]
+pagerSize = 20
+
+[params]
+author = "Koushik"
+info = "Systems Engineer"
+description = "Software, Linux, Finance and Philosophy"
+footer = "Koushik Systems Consulting"
+colorScheme = "auto"
+hideColorSchemeToggle = true
+
+[[params.social]]
+name = "Github"
+icon = "fa-brands fa-github fa-2x"
+weight = 1
+url = "https://github.com/tuxarete/"
+
+
+[[params.social]]
+name = "RSS"
+icon = "fa-solid fa-rss fa-2x"
+weight = 4
+url = "https://koushik.page/index.xml"
+rel = "alternate"
+type = "application/rss+xml"
+
+
+[[menu.main]]
+name = "Blog"
+weight = 2
+url = "posts/"
+
+[[menu.main]]
+name = "Projects"
+weight = 3
+url = "projects/"
+
+[[menu.main]]
+name = "Contact me"
+weight = 5
+url = "contact/"
